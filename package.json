@@ -1,0 +1,43 @@
+{
+  "name": "____________________________________",
+  "version": "1.0.0",
+  "description": "____________________________________",
+  "author": {
+    "name": "____________________________________"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/____________/____________.git"
+  },
+  "license": "MIT",
+  "homepage": "____________________________________",
+  "bugs": {
+    "url": "https://github.com/____________/____________/issues"
+  },
+  "scripts": {
+    "test": "npm run build:production && npm run test:prebuilt",
+    "test:prebuilt": "mocha --require babel-register --recursive",
+    "dev": "webpack --watch",
+    "build:dev": "webpack",
+    "build:production": "NODE_ENV=production webpack -p"
+  },
+  "main": "lib/index.js",
+  "peerDependencies": {
+    "react": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.11.6",
+    "chai": "^3.5.0",
+    "eslint": "^3.2.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^5.2.2",
+    "mocha": "^3.0.2",
+    "webpack": "^1.13.1"
+  }
+}
