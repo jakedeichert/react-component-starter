@@ -1,5 +1,9 @@
 # My Component
 
+A simple UMD React component starter kit.
+
+I use this for prototyping standalone React components that build to UMD so they can be required/imported or used within the browser.
+
 
 
 ### Setting Up the Environment
@@ -35,3 +39,9 @@ npm run dev
 # Run the tests
 npm test
 ~~~
+
+
+
+### Testing
+
+I'm using [mocha](https://github.com/mochajs/mocha) as my test runner and [chai](https://github.com/chaijs/chai) for assertions.
