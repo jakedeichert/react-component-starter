@@ -1,4 +1,4 @@
-# My Component
+# React Component Starter Kit [![Build Status](https://travis-ci.org/jakedeichert/react-component-starter.svg?branch=master)](https://travis-ci.org/jakedeichert/react-component-starter)
 
 A simple UMD React component starter kit.
 
