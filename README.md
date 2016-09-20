@@ -21,7 +21,6 @@ docker run -it --rm \
     --name react_component_starter \
     -v /path/to/react-component-starter:/root/project \
     img_react_component_starter
-
 ~~~
 
 
