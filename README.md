@@ -31,12 +31,12 @@ docker run -it --rm \
 # Connect a terminal to the docker container
 docker exec -it react_component_starter bash
 
-# Install and then watch for builds with webpack
-npm install
-npm run dev
+# Install dependencies with yarn and build with webpack
+yarn
+yarn run dev
 
 # Run the tests
-npm test
+yarn test
 ~~~
 
 
