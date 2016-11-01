@@ -1,10 +1,6 @@
 import React, { PropTypes } from 'react';
 
 export default class MyComponent extends React.Component {
-  static propTypes = {
-    text: PropTypes.string.isRequired,
-  }
-
   render() {
     const { text } = this.props;
     return (
@@ -14,3 +10,7 @@ export default class MyComponent extends React.Component {
     );
   }
 }
+
+MyComponent.propTypes = {
+  text: PropTypes.string.isRequired,
+};
